@@ -25,7 +25,7 @@ In this project the goal is to implement a PID controller to control and maneuve
 
 ## Prerequisites
 
-This project involves the Term2 Simulator which contains the Path Planning Project from the [releases tab](https://github.com/udacity/self-driving-car-sim/releases).
+This project involves the Term2 Simulator which contains the PID Control Project from the [releases tab](https://github.com/udacity/self-driving-car-sim/releases).
 
 To run the simulator on Mac/Linux, first make the binary file executable with the following command:
 ```shell
@@ -143,7 +143,7 @@ The steps recommended to perform the manual tuning are:
 
 1. Setting _K<sub>i</sub>_ and _K<sub>d</sub>_ values to zero.
 2. Increasing _K<sub>p</sub>_ until the output of the loop oscillates, and reaches a steady oscillation around the desired trajectory.
-3. Increasing _K<sub>i</sub>_ slightly until any offset is corrected in sufficient time for the process and the system reaches a disred trajectory.
+3. Increasing _K<sub>i</sub>_ slightly until any offset is corrected in sufficient time for the process and the system reaches a desired trajectory.
 4. Finally, increasing _K<sub>d</sub>_ until the oscillation start to disappear.
 
 An illustration of the effect of each parameter is shown below
