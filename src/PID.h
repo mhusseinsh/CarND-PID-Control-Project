@@ -1,8 +1,10 @@
 #ifndef PID_H
 #define PID_H
+#include <iostream>
+#include <vector>
 
 class PID {
- public:
+public:
   /**
    * Constructor
    */
@@ -31,7 +33,7 @@ class PID {
    */
   double TotalError();
 
- private:
+private:
   /**
    * PID Errors
    */
@@ -41,10 +43,10 @@ class PID {
 
   /**
    * PID Coefficients
-   */ 
+   */
   double Kp;
   double Ki;
   double Kd;
 };
 
-#endif  // PID_H
+#endif // PID_H
