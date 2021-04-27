@@ -60,9 +60,9 @@ This repository includes two files that can be used to set up and install uWebSo
 Once the install for uWebSocketIO is complete, the main program can be built and ran by doing the following from the project top directory.
 ```sh
 1. Clone this repo.
-2. Make a build directory: `mkdir build && cd build`
-3. Compile: `cmake .. && make`
-4. Run it: `./pid`. 
+2. Make a build directory: mkdir build && cd build
+3. Compile: cmake .. && make
+4. Run it: ./pid
 ```
 Alternatively some scripts have been included to streamline this process, these can be leveraged by executing the following in the top directory of the project:
 ```sh
